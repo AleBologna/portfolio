@@ -55,7 +55,7 @@ export default function Header() {
                 className="block py-1 px-3 bg-blue-700 rounded md:bg-transparent md:p-0 text-white md:text-blue-500"
                 aria-current="page"
               >
-                Home
+                Inicio
               </a>
             </li>
             <li>
@@ -63,7 +63,7 @@ export default function Header() {
                 href="#"
                 className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
-                About
+                Nosotros
               </a>
             </li>
             <li>
@@ -71,7 +71,7 @@ export default function Header() {
                 href="#"
                 className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
-                Services
+                Habilidades
               </a>
             </li>
             <li>
@@ -79,15 +79,7 @@ export default function Header() {
                 href="#"
                 className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
-              >
-                Contact
+                Contacto
               </a>
             </li>
           </ul>
