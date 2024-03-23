@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function InitialSection() {
   return (
-    <section className="flex flex-col sm:flex-row">
+    <section id="initialSection" className="flex flex-col sm:flex-row">
       <div className="h-full bg-gradient-to-b from-25% from-[#100d28] via-61% via-[#0c0d6b] to-[#0b0d81] px-12 sm:w-7/12 sm:px-26 md:px-28">
         <div className="h-full flex flex-col justify-between items-center ">
           <div className="w-full  mt-32 sm:mt-36">

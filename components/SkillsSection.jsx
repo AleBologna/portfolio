@@ -69,7 +69,7 @@ export default function SkillsSection() {
     },
   ];
   return (
-    <section className="bg-[#0C0D6B] p-3">
+    <section id="skillsSection" className="bg-[#0C0D6B] px-3 py-8">
       <p className="text-5xl text-[#fff] font-semibold mb-5 text-center">
         Tecnologías usadas en nuestros proyectos
       </p>

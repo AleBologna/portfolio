@@ -5,7 +5,7 @@ export default function Header() {
   const [burguer, setBurguer] = useState(true);
   const handleBurguer = () => setBurguer(!burguer);
   return (
-    <nav className="fixed z-10 w-full bg-[#100D28]">
+    <nav className="fixed z-10 w-full bg-[#100D28] ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-3">
         <div className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image
@@ -51,16 +51,15 @@ export default function Header() {
           <ul className="h-full font-medium flex flex-col justify-center items-center gap-4 p-4 md:p-0 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:gap-0">
             <li>
               <a
-                href="#"
-                className="block py-1 px-3 bg-blue-700 rounded md:bg-transparent md:p-0 text-white md:text-blue-500"
-                aria-current="page"
+                href="#initialSection"
+                className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
                 Inicio
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#aboutUsSection"
                 className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
                 Nosotros
@@ -68,7 +67,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="#skillsSection"
                 className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
                 Habilidades
@@ -76,7 +75,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="#messageSection"
                 className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
                 Contacto
