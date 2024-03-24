@@ -7,7 +7,7 @@ export const metadata = {
   title: "WebNova Solutions",
   description:
     "WebNova Solutions es una agencia de desarrollo de soluciones web a medida.",
-  image: "/assets/images/logoSinFondo.png",
+  image: "/assets/images/logoFull.png",
   instagram: "@webnovasolutions",
   type: "website",
   locale: "es_ES",
