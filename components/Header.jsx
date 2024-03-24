@@ -20,7 +20,7 @@ export default function Header() {
           data-collapse-toggle="navbar-default"
           type="button"
           onClick={handleBurguer}
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none focus:ring-2 text-gray-400 hover:bg-gray-700 focus:ring-gray-600 transition-colors duration-300 ease-in-out"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none  text-gray-400 hover:bg-gray-700 transition-colors duration-300 ease-in-out"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -51,6 +51,7 @@ export default function Header() {
           <ul className="h-full font-medium flex flex-col justify-center items-center gap-4 p-4 md:p-0 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:gap-0">
             <li>
               <a
+                onClick={handleBurguer}
                 href="#initialSection"
                 className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
@@ -59,6 +60,7 @@ export default function Header() {
             </li>
             <li>
               <a
+                onClick={handleBurguer}
                 href="#aboutUsSection"
                 className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
@@ -67,6 +69,7 @@ export default function Header() {
             </li>
             <li>
               <a
+                onClick={handleBurguer}
                 href="#skillsSection"
                 className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
@@ -75,6 +78,7 @@ export default function Header() {
             </li>
             <li>
               <a
+                onClick={handleBurguer}
                 href="#messageSection"
                 className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >

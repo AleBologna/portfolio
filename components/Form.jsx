@@ -77,8 +77,13 @@ export default function Form() {
             <textarea
               className="peer h-full min-h-[100px] w-full resize-none border-b-2 pb-1 border-[#0B0D81] bg-transparent pt-4 font-sans text-sm font-normal text-black outline outline-0 transition-all placeholder-shown:border-[#0B0D81] focus:border-blue-600 focus:outline-0 disabled:resize-none disabled:border-0 disabled:bg-gray-50"
               placeholder=" "
+              name="floating_message"
+              id="floating_message"
             ></textarea>
-            <label className="after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none text-[11px] font-normal duration-300 leading-tight text-gray-700 transition-all after:absolute after:-bottom-0 after:block after:w-full after:scale-x-0 after:border-b-2  after:transition-transform after:duration-400 peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[4.25] peer-placeholder-shown:text-gray-700 peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-blue-500  peer-focus:after:border-gray-900 peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-gray-500">
+            <label
+              htmlFor="floating_message"
+              className="after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none text-[11px] font-normal duration-300 leading-tight text-gray-700 transition-all after:absolute after:-bottom-0 after:block after:w-full after:scale-x-0 after:border-b-2  after:transition-transform after:duration-400 peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[4.25] peer-placeholder-shown:text-gray-700 peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-blue-500  peer-focus:after:border-gray-900 peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-gray-500"
+            >
               Mensaje
             </label>
           </div>

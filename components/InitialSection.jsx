@@ -14,7 +14,8 @@ export default function InitialSection() {
               adaptables que potencian el crecimiento de tu empresa en línea.
             </p>
           </div>
-          <div className="w-full my-11 flex flex-row items-end justify-between gap-4">
+
+          <div className="w-full my-5 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end sm:my-11">
             <div className="h-full flex grow shrink">
               <p className="text-sm">
                 Nuestra experiencia técnica y creativa impulsa tu éxito online.

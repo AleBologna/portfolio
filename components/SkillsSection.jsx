@@ -10,7 +10,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaAngular } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { BiLogoSpringBoot } from "react-icons/bi";
-import { TbLetterCSmall } from "react-icons/tb";
+import { SiC } from "react-icons/si";
 import { SiMicrosoftsqlserver } from "react-icons/si";
 
 export default function SkillsSection() {
@@ -61,7 +61,7 @@ export default function SkillsSection() {
     },
     {
       name: "Native C",
-      icon: <TbLetterCSmall size={65} color="#A4B4C7" />,
+      icon: <SiC size={65} color="#A4B4C7" />,
     },
     {
       name: "Microsoft SQL Server",
@@ -69,11 +69,11 @@ export default function SkillsSection() {
     },
   ];
   return (
-    <section id="skillsSection" className="bg-[#0C0D6B] px-3 py-8">
+    <section className="bg-[#0C0D6B] px-9 py-12">
       <p className="text-5xl text-[#fff] font-semibold mb-5 text-center">
         Tecnologías usadas en nuestros proyectos
       </p>
-      <div className="flex flex-row gap-x-7 gap-y-1 flex-wrap w-full mx-3 justify-center">
+      <div className="flex flex-row gap-x-7 gap-y-5 flex-wrap w-full mx-3 justify-center">
         {skills.map((skill) => (
           <div
             key={skill.name}
