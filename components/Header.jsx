@@ -14,13 +14,18 @@ export default function Header() {
             height={60}
             alt="WebNova Logo"
           />
-          <p className="text-white text-lg">WebNova</p>
+          <p className="hidden md:block text-white text-2xl font-semibold">
+            Web<span className="text-[#FF80F1]">Nova</span>
+          </p>
         </div>
+        <p className="block me-3 md:me-0 md:hidden text-white text-2xl font-semibold">
+          Web<span className="text-[#FF80F1]">Nova</span>
+        </p>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
           onClick={handleBurguer}
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none  text-gray-400 hover:bg-gray-700 transition-colors duration-300 ease-in-out"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none  text-gray-400  transition-colors duration-300 ease-in-out"
           aria-controls="navbar-default"
           aria-expanded="false"
         >

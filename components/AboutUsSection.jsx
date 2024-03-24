@@ -1,9 +1,8 @@
-import React from "react";
 import Image from "next/image";
 
 export default function AboutUsSection() {
   return (
-    <section id="aboutUsSection" className="bg-white py-7 px-3">
+    <section className="bg-white py-7 px-3">
       <div className="flex w-full items-center">
         <div className="md:w-1/2 ">
           <div className="w-full flex justify-center ">
@@ -12,7 +11,7 @@ export default function AboutUsSection() {
             </h1>
           </div>
           <div className="flex flex-col justify-center">
-            <p className="text-center text-xl text-[#0B0D81] px-5">
+            <p className="text-center text-xl md:w-5/6 md:mx-auto text-[#0B0D81] px-5">
               En Webnova Solutions nos especializamos en la creación de páginas
               web que destacan. Nos hemos dedicado a proporcionar soluciones web
               de alta calidad que ayudan a nuestros clientes a establecer una
@@ -41,12 +40,12 @@ export default function AboutUsSection() {
         </div>
         <div className="md:w-1/2">
           <div className="w-full flex justify-center ">
-            <h1 className="text-5xl text-[#0B0D81] font-bold mb-3 text-center mt-5">
+            <h1 className="text-5xl text-[#0B0D81] font-bold mb-3 text-center mt-8">
               Únete a nuestro equipo
             </h1>
           </div>
           <div className="flex flex-col justify-center">
-            <p className="text-center text-xl text-[#0B0D81] px-5">
+            <p className="text-center text-xl md:w-5/6 md:mx-auto text-[#0B0D81] px-5">
               Si estás buscando un sitio web que destaque entre la multitud y te
               ayude a alcanzar tus objetivos en línea, has venido al lugar
               correcto. En Webnova Solutions, estamos listos para llevar tu

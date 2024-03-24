@@ -33,7 +33,7 @@ export default function SkillsSection() {
     },
     {
       name: "Next Js",
-      icon: <TbBrandNextjs size={65} color="#000000" />,
+      icon: <TbBrandNextjs size={65} color="#DEDEDE" />,
     },
     {
       name: "Git",
@@ -53,7 +53,7 @@ export default function SkillsSection() {
     },
     {
       name: "Java",
-      icon: <FaJava size={65} color="white" />,
+      icon: <FaJava size={65} color="#E51F24" />,
     },
     {
       name: "Spring",
@@ -70,10 +70,10 @@ export default function SkillsSection() {
   ];
   return (
     <section className="bg-[#0C0D6B] px-9 py-12">
-      <p className="text-5xl text-[#fff] font-semibold mb-5 text-center">
+      <p className="text-5xl text-[#fff] font-semibold mb-10 text-center">
         Tecnologías usadas en nuestros proyectos
       </p>
-      <div className="flex flex-row gap-x-7 gap-y-5 flex-wrap w-full mx-3 justify-center">
+      <div className="flex flex-row gap-x-7 md:w-4/6 md:mx-auto gap-y-5 flex-wrap w-full mx-3 justify-center">
         {skills.map((skill) => (
           <div
             key={skill.name}
@@ -81,7 +81,7 @@ export default function SkillsSection() {
           >
             <div>{skill.icon}</div>
             <div className="text-center">
-              <p>{skill.name}</p>
+              <p className="font-semibold">{skill.name}</p>
             </div>
           </div>
         ))}
