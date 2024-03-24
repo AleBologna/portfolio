@@ -26,7 +26,7 @@ export default function InitialSection() {
                 id="aboutUsSection"
                 className="text-lg md:text-xl mb-10 md:mb-0"
               >
-                Equipo altamente capacitado en sistemas de diseño
+                Equipo altamente capacitado en sistemas de diseño.
               </p>
             </div>
           </div>
