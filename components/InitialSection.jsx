@@ -22,7 +22,10 @@ export default function InitialSection() {
               </p>
             </div>
             <div className="h-full flex grow shrink ">
-              <p className="text-lg md:text-xl mb-10 md:mb-0">
+              <p
+                id="aboutUsSection"
+                className="text-lg md:text-xl mb-10 md:mb-0"
+              >
                 Equipo altamente capacitado en sistemas de diseño
               </p>
             </div>
@@ -37,10 +40,7 @@ export default function InitialSection() {
           height={220}
           className="mt-0 md:mt-20"
         ></Image>
-        <p
-          id="aboutUsSection"
-          className="pb-7 mt-5 text-4xl md:text-5xl font-bold"
-        >
+        <p className="pb-7 mt-5 text-4xl md:text-5xl font-bold">
           Web<span className="text-[#FF80F1]">Nova</span>
         </p>
       </div>
